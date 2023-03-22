@@ -1,0 +1,47 @@
+
+body {
+    background-color: rgb(26, 97, 97);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(85, 85, 145);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-style: bolder;
+}
+
+/* .box {
+    float:right;
+    padding-right: 20px;
+} */
+
+nav {
+    background-color: aliceblue;;
+    
+}
+
+.box:hover + nav:hover {
+    display: block;
+    color: red;
+}
+
+nav a {
+    color: #000103;
+    padding: 10px 20px;
+    font-weight: 600;
+    float:right;
+}
+
+
+a:hover {
+    color: red;
+}
