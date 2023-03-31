@@ -4,7 +4,7 @@
 This project is a first attempt at a personal portfolio. The projects listed are all fictitious since I don't have any yet.
 
 ## Visuals
-![Picture of landing page](https://github.com/zamorejake/02-challenge/blob/main/assets/images/demoSMALLER.png)
+![Picture of landing page](https://github.com/zamorejake/02-challenge/blob/main/assets/pictures/demoSMALLER.png)
 
 ## Usage
 Showing off my projects and contact information.
