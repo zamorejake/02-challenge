@@ -1,0 +1,146 @@
+html {
+    scroll-behavior: smooth; 
+}
+
+body {
+    background-color: rgb(26, 97, 97);
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+header {
+    background-color: rgb(85, 85, 145);
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    font-weight:900;
+}
+
+h2 {
+    font-weight:700;
+}
+
+
+nav {
+    background-color: lightpink;
+    
+}
+
+nav a {
+    color: #000103;
+    padding: 10px 20px;
+    font-weight: 600;
+    float:right;
+    list-style-type: none;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+
+a:hover {
+    color: red;
+}
+
+.aboutme {
+    padding: 20px;
+    background-color: lightblue;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 3em;
+    flex-wrap: wrap;
+}
+
+.main {
+    border: 2px solid white;
+    padding: 30px;
+    margin: 10px;
+    width: 100%;
+    
+}
+
+.titles, .code {
+    /*border: 2px solid white;*/
+    position: relative;
+
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
+    color: white;
+    text-shadow: 3px 3px gray;
+}
+
+.code {
+    font-weight: 600;
+    color: rgb(21, 214, 63);
+    text-shadow: 1px 1px white;
+}
+
+.hero_calc, .hero_calendar, .hero_clock, .hero_running, .hero_led {
+    background-size: cover;
+    background-position: center;
+}
+
+.hero_calc {
+    background-image: url("../pictures/hero.calc.jpg");
+    
+}
+
+.hero_calendar {
+    background-image: url("../pictures/hero.calendar.jpg");
+    
+}
+
+
+.hero_clock {
+    background-image: url("../pictures/hero.clock.jpg");
+    
+}
+
+.hero_run {
+    background-image: url("../pictures/hero.run.png");
+    
+}
+
+.hero_led {
+    background-image: url("../pictures/hero.led.png");
+    
+}
+
+footer {
+    background-color: rgb(85, 85, 145);
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 3px 3px black;
+}
+
+@media screen and (min-width: 768px) {
+.main {
+    width: 50%;
+    flex-grow: 2;
+}
+header {
+    background: aquamarine;
+}
+}
+
+@media screen and (min-width: 992px) {
+.main {
+ width: 20%;
+ flex-grow: 4;
+}
+header {
+    background: purple;
+}
+}
