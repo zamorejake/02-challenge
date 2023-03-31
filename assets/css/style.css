@@ -13,6 +13,7 @@ body {
 
 header {
     background-color: rgb(85, 85, 145);
+    text-shadow: 3px 3px black;
     padding: 20px;
     text-align: center;
     color: #fff;
@@ -77,7 +78,7 @@ a:hover,a:active, a:focus {
     position: relative;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, sans-serif;
     color: white;
-    text-shadow: 3px 3px gray;
+    text-shadow: 3px 3px rgb(78, 78, 78);
 }
 
 .code {
